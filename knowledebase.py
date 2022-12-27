@@ -1,9 +1,8 @@
 combinations = [(True, True, True), (True, True, False), (True, False, True), (True, False, False), (False, True, True),
                 (False, True, False), (False, False, True), (False, False, False)]
 variable = {'p': 0, 'q': 1, 'r': 2}
-# set of rules
-kb = ''  # should be a cnf
-q = ''  # should be a cnf
+kb = ''  
+q = ''  
 priority = {'~': 3, 'v': 1, '^': 2}
 
 
